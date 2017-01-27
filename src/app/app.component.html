@@ -2,7 +2,8 @@
     <a routerLink="/bliblio" routerLinkActive="active">Lien vers la bibliothèque</a>
     <router-outlet></router-outlet>
 </nav>
-   <h1>{{title}}</h1>
+
+<h1>{{title}}</h1>
     <ul class="heroes">
       <li *ngFor="let json of JSONS"
        [class.selected]="json === selectedHero"
@@ -10,16 +11,20 @@
         <span class="badge">{{json.id}}</span> {{json.name}}
       </li>
     </ul>
-          <h2>{{json.name}} details!</h2>
+
+<h2>{{json.name}} details!</h2>
           <div><label>id: </label>{{json.id}}</div>
           <div>{{json.summary}}</div>
         <div>{{json.genres}}</div>
-        <li *ngFor="let screenshot of json.screenshots">
+
+<li *ngFor="let screenshot of json.screenshots">
             <span>{{screenshot.url}}}</span>
-          </li>
-    <div class="heroes" *ngIf="selectedHero">
+</li>
+
+<div class="heroes" *ngIf="selectedHero">
           <h2 class="title">{{selectedHero.name}} details!</h2>
           <div><label>id: </label>{{selectedHero.id}}</div>
           <div>{{selectedHero.summary}}</div>
 </div>
-	<app-footer></app-footer>
+
+<app-footer></app-footer>
