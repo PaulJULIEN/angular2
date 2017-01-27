@@ -21,8 +21,5 @@ import { JsonService } from './app.service';
         ngOnInit(): void {
             this.getJson();
           }
-        onSelect(json: json) {
-            this.router.navigate(['detail/', json.id]);
-      }
 
     }
