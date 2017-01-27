@@ -5,7 +5,7 @@
 
 <h1>{{title}}</h1>
     <ul class="heroes">
-      <li *ngFor="let json of JSONS"
+      <li *ngFor="let json of JSONS">
        [class.selected]="json === selectedHero"
             (click)="onSelect(json)">
         <span class="badge">{{json.id}}</span> {{json.name}}
