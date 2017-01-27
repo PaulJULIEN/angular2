@@ -1,19 +1,29 @@
- .heroes{
+body{
+}
+
+.heroes{
      height: auto;
      width: 75%;
      text-decoration: none;
-    }
+    font-family: Montserrat;
+
+}
 
  .liste{
-     list-style: none;
 
  }
 
  .badge{
 
+ }
 
+ .title{
+     color: orangered;
+     font-family: "Trebuchet MS";
  }
 
  .name{
      color: firebrick;
+     list-style: none;
+
  }
