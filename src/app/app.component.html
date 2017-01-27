@@ -1,7 +1,7 @@
     <app-header></app-header>
     <h1 class="title">{{title}}</h1>
     <ul class="heroes">
-     
+
       <li class="name" *ngFor="let json of JSONS"
        [class.selected]="json === selectedHero"
             (click)="onSelect(json)">
@@ -13,4 +13,4 @@
           <div><label>id: </label>{{selectedHero.id}}</div>
           <div>{{selectedHero.summary}}</div>
 </div>
-    <app-footer></app-footer>
+	<app-footer></app-footer>
