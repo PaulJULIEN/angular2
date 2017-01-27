@@ -1,6 +1,7 @@
     <h1>{{title}}</h1>
     <ul class="heroes">
-      <li *ngFor="let json of jsons">
-        <span class="badge">{{json.id}}</span> {{json.name}} <p>{{json.summary}}</p>
+      <li class="liste" *ngFor="let json of jsons">
+            <span class="badge">{{json.id}}</span> <p class="name">{{json.name}}</p> <p class="summary">{{json.summary}}</p>
+            <hr>
       </li>
     </ul>
