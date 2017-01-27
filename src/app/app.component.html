@@ -1,10 +1,10 @@
-<h1>{{title}}</h1>
+<nav>
+    <a routerLink="/bliblio" routerLinkActive="active">Lien vers la bibliothèque</a>
+    <router-outlet></router-outlet>
+</nav>
+   <h1>{{title}}</h1>
     <ul class="heroes">
       <li *ngFor="let json of JSONS"
-    <app-header></app-header>
-    <h1 class="title">{{title}}</h1>
-    <ul class="heroes">
-      <li class="name" *ngFor="let json of JSONS">
        [class.selected]="json === selectedHero"
             (click)="onSelect(json)">
         <span class="badge">{{json.id}}</span> {{json.name}}
