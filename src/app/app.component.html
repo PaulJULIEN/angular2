@@ -1,6 +1,14 @@
     <h1>{{title}}</h1>
     <ul class="heroes">
-      <li *ngFor="let json of jsons">
-        <span class="badge">{{json.id}}</span> {{json.name}} <p>{{json.summary}}</p>
+      <li *ngFor="let json of JSONS"
+       [class.selected]="json === selectedHero"
+            (click)="onSelect(json)">
+        <span class="badge">{{json.id}}</span> {{json.name}}
       </li>
     </ul>
+    <div *ngIf="selectedHero">
+          <h2>{{selectedHero.name}} details!</h2>
+          <div><label>id: </label>{{selectedHero.id}}</div>
+          <div>{{selectedHero.summary}}</div>
+</div>
+        
