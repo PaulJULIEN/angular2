@@ -17,6 +17,7 @@ import { JsonService } from './app.service';
         getJson(): void {
             this.JsonService.getJson().then(JSONS => this.JSONS = JSONS);
           }
+        
         ngOnInit(): void {
             this.getJson();
           }
@@ -24,4 +25,3 @@ import { JsonService } from './app.service';
         this.selectedHero = json;
       }
     }
-  
