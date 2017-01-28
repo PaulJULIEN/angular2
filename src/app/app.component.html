@@ -4,7 +4,7 @@
 </nav>
 
 <h1>{{title}}</h1>
-    <ul class="heroes">
+    <ul class="title">
       <li *ngFor="let json of JSONS">
        [class.selected]="json === selectedHero"
             (click)="onSelect(json)">
@@ -12,7 +12,7 @@
       </li>
     </ul>
 
-<h2>{{json.name}} details!</h2>
+<h2 class="heroes">{{json.name}} details!</h2>
           <div><label>id: </label>{{json.id}}</div>
           <div>{{json.summary}}</div>
         <div>{{json.genres}}</div>

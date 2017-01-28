@@ -209,12 +209,23 @@
       "width": 872,
       "height": 1061
     }
-  }, {
-    "id": 358,
-    "name": "Super Mario Bros.",
-    "storyline": "Bowser, king of the Koopas, has invaded the Mushroom Kingdom, and turned all the citizens to stone! The only one who can break the spell, Princess Toadstool, has been locked away in Bowser's castle. To return peace to the Mushroom Kingdom, Mario must venture through eight challenging worlds, each packed to the brim with monsters and secrets.",
-    "genres": [8],
-    "screenshots": [{
+  },
+  {
+    "id"
+  :
+    358,
+        "name"
+  :
+    "Super Mario Bros.",
+        "storyline"
+  :
+    "Bowser, king of the Koopas, has invaded the Mushroom Kingdom, and turned all the citizens to stone! The only one who can break the spell, Princess Toadstool, has been locked away in Bowser's castle. To return peace to the Mushroom Kingdom, Mario must venture through eight challenging worlds, each packed to the brim with monsters and secrets.",
+        "genres"
+  :
+    [8],
+        "screenshots"
+  :
+    [{
       "url": "//images.igdb.com/igdb/image/upload/t_thumb/nbrobfsaqkpb2c8d6x3f.png",
       "cloudinary_id": "nbrobfsaqkpb2c8d6x3f",
       "width": 284,
@@ -240,14 +251,26 @@
       "width": 284,
       "height": 238
     }],
-    "videos": [{
+        "videos"
+  :
+    [{
       "name": "Gameplay video",
       "video_id": "w2NjUDfOp2o"
     }],
-    "cover": {
-      "url": "//images.igdb.com/igdb/image/upload/t_thumb/ygfznmlzsw2yb4j88qlv.png",
-      "cloudinary_id": "ygfznmlzsw2yb4j88qlv",
-      "width": 400,
-      "height": 550
+        "cover"
+  :
+    {
+      "url"
+    :
+      "//images.igdb.com/igdb/image/upload/t_thumb/ygfznmlzsw2yb4j88qlv.png",
+          "cloudinary_id"
+    :
+      "ygfznmlzsw2yb4j88qlv",
+          "width"
+    :
+      400,
+          "height"
+    :
+      550
     }
   }
