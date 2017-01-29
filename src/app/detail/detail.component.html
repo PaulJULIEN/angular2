@@ -1,3 +1,12 @@
-<p>
-  detail works!
-</p>
+    <div class="heroes" *ngIf="selectedHero">
+          <h2 class="title">{{selectedHero.name}} details!</h2>
+          <div><label>id: </label>{{selectedHero.id}}</div>
+          <div>{{selectedHero.summary}}</div>
+            <ul class="screen">
+                <li *ngFor="let json of JSONS">
+                   <ul>
+                       <li *ngFor="let screenshot of json.screenshots"><img src={{screenshot.url}}/></li>
+                    </ul>
+                </li>
+            </ul>
+</div>

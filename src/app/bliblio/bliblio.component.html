@@ -2,22 +2,7 @@
       <li *ngFor="let json of JSONS"
        [class.selected]="json === selectedHero"
             (click)="onSelect(json)">
-        <span class="badge">{{json.id}}{{json.name}}</span>
-        <ul>
-            <li *ngFor="let screenshot of json.screenshots">{{screenshot.url}}</li>
-        </ul>
+        <span class="badge"><p>id :</p>{{json.id}} <p>Nom :</p>{{json.name}} {{json.genres}}</span>
       </li>
       
     </ul>
-    <div class="heroes" *ngIf="selectedHero">
-          <h2 class="title">{{selectedHero.name}} details!</h2>
-          <div><label>id: </label>{{selectedHero.id}}</div>
-          <div>{{selectedHero.summary}}</div>
-            <ul class="screen">
-                <li *ngFor="let json of JSONS">
-                   <ul>
-                    <li *ngFor="let screenshot of json.screenshots">{{screenshot.url}}</li>
-                    </ul>
-                </li>
-            </ul>
-</div>
