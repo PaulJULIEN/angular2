@@ -14,10 +14,10 @@ title = 'Le Json de jeu';
 JSONS: json[];
 selectedHero: json;
 constructor(private JsonService: JsonService) { }
+    
 getJson(): void {
-this.JsonService.getJson().then(JSONS => this.JSONS = JSONS);
+    this.JsonService.getJson().then(JSONS => this.JSONS = JSONS)
 }
-
 ngOnInit(): void {
 this.getJson();
 }
