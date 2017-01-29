@@ -3,8 +3,8 @@ import { json } from './json';
 export const JSONS: json[] = JSON.parse(JSON.stringify([
   { id: 1070, name: 'Super Mario World', 
         summary: "Super Mario World (known in Japan as Super Mario World: Super Mario Bros. 4) is a side-scrolling platformer developed by Nintendo EAD and published by Nintendo for the Super Nintendo Entertainment System on November 21, 1990 (in Japan), August 31, 1991 (in North America), and April 11, 1992 (in Europe).\n\nOne of the launch titles of the SNES (and bundled with early systems in North America), Super Mario World is the fifth main game in the Super Mario series. (starring Nintendo's mascot, Mario, and his brother, Luigi). The game follows both Mario brothers as they explore Dinosaur Land (known for its large amount of dinosaurs) to find and defeat the evil Koopa king Bowser (and his seven underlings, the Koopalings) while rescuing Princess Toadstool.\n\nAlong with new abilities (such as the \"Spin Jump\"), a new power-up (the \"Cape Feather\") and more obstacles, the game introduces dinosaur companions (known as Yoshi) that Mario and Luigi can ride. Yoshi, known for using their long tongues to snare and eat enemies, have become a fan-favorite among the series (giving them their own games and spin-offs, most notably this game's prequel).\n\nSpecial bundles of the SNES in 1994 included a compilation cartridge mixing Super Mario World with Super Mario All-Stars. The only difference in this version is a new sprite set for Luigi. The original game was later ported to the Game Boy Advance on February 11, 2002 as Super Mario World: Super Mario Advance 2. Along with a special version of the original Mario Bros., the port includes a variety of differences, including Luigi as a selectable character (who now has unique features, such as his floating jump from Super Mario Bros. 2), new voice acting, and the ability to save anywhere. The original game was also digitally re-released in Nintendo's Virtual Console platform for the Wii (on February 5, 2007) and Wii U (on April 26, 2013).",
-      "genres": [8],
-        "screenshots": [{
+      genres: [8],
+        screenshots: [{
       "url": "http://images.igdb.com/igdb/image/upload/t_cover_big/pdkvjmhh5urjnrwng5cg.png"
     }, {
       "url": "http://images.igdb.com/igdb/image/upload/t_cover_big/bbkmycy8wacpka1hroy5.png"
@@ -17,10 +17,10 @@ export const JSONS: json[] = JSON.parse(JSON.stringify([
       "url": "http://images.igdb.com/igdb/image/upload/t_cover_big/rbdpnsh7jkx4cvejygkc.png"
     }
     },
-  { id: 18061, "name": "Super Mario Bros. 3",
-    "summary": "Super Mario Bros. 3 is a platform video game for the Nintendo Entertainment System (NES) video game console. Mario and Luigi embark on a quest to save Princess Toadstool and the rulers of seven different kingdoms from the antagonist Bowser and his children, the Koopalings. The player, as Mario or Luigi, is able to defeat enemies by stomping them or using items that bestow magical powers. Mario and Luigi are given a wider range of abilities than in previous Super Mario games, including flying or sliding down slopes. In addition, Super Mario Bros. 3 introduces numerous elements, such as new enemy characters and the use of a world map to transition between levels, that have reappeared in or have influenced subsequent Mario games.",
-    "genres": [8],
-    "screenshots": [{
+  { id: 18061, name: "Super Mario Bros. 3",
+    summary: "Super Mario Bros. 3 is a platform video game for the Nintendo Entertainment System (NES) video game console. Mario and Luigi embark on a quest to save Princess Toadstool and the rulers of seven different kingdoms from the antagonist Bowser and his children, the Koopalings. The player, as Mario or Luigi, is able to defeat enemies by stomping them or using items that bestow magical powers. Mario and Luigi are given a wider range of abilities than in previous Super Mario games, including flying or sliding down slopes. In addition, Super Mario Bros. 3 introduces numerous elements, such as new enemy characters and the use of a world map to transition between levels, that have reappeared in or have influenced subsequent Mario games.",
+    genres: [8],
+    screenshots: [{
       "url": "http://images.igdb.com/igdb/image/upload/t_cover_big/epaagugpfhd0rmsd6kol.png"
     }, {
       "url": "http://images.igdb.com/igdb/image/upload/t_cover_big/erjdg6rwwxg0vpbbvnat.png"
@@ -38,17 +38,17 @@ export const JSONS: json[] = JSON.parse(JSON.stringify([
       "url": "http://images.igdb.com/igdb/image/upload/t_cover_big/ogguvec9vhrsml4uxqrg.png"
     }
   },
-  { id: 23796, "name": "Candy Crush Soda Saga",
-    "summary": "Spin-off to the famous Candy Crush Saga, made by King, it's a game that has similar mechanics, introducing new features such as the soda bottles. Candy Crush Soda Saga is a brand new game from the makers of the legendary Candy Crush Saga. New candies, more divine combinations and challenging game modes brimming with purple soda!",
-    "genres": [9],
-    "screenshots": [{
+  { id: 23796, name: "Candy Crush Soda Saga",
+    summary: "Spin-off to the famous Candy Crush Saga, made by King, it's a game that has similar mechanics, introducing new features such as the soda bottles. Candy Crush Soda Saga is a brand new game from the makers of the legendary Candy Crush Saga. New candies, more divine combinations and challenging game modes brimming with purple soda!",
+    genres: [9],
+    screenshots: [{
       "url": "http://images.igdb.com/igdb/image/upload/t_cover_big/rvwwnsmxrwkegkewqhlo.png"
     }, {
       "url": "http://images.igdb.com/igdb/image/upload/t_cover_big/wh0fnoscy5eyhkdotosd.png"
     }],
     "cover": {
       "url": "http://images.igdb.com/igdb/image/upload/t_cover_big/bdacvq7evn1skjcsbozw.png"
-    }}, 
+    }},
     {
     id: 258,
     "name": "Mario Kart 64",
@@ -67,7 +67,7 @@ export const JSONS: json[] = JSON.parse(JSON.stringify([
     "cover": {
       "url": "http://images.igdb.com/igdb/image/upload/t_cover_big/tnapkuvk8aup3aoamxuz.png"
     }
-  }, 
+  },
     { id:7532,
     "name": "Pokémon Trading Card Game Online",
     "summary": "Pokémon Trading Card Game Online (also referred to as Pokémon TCG Online or TCGO) is a downloadable game and the first Pokémon game of the MMOTCG (massively-multiplayer online trading card game) genre. It is based on the Pokémon Trading Card Game or TCG aspect of the Pokémon franchise and follows the same rules. The game was originally released as a browser-based game in March 2011 before being relaunched as a downloadable game in 2012 for the PC and Mac, iPad in 2014, and Android tablets in 2016. It officially emerged from open beta testing in February 2015 but continues to be refined and improved upon on a continual basis. The game is free to download and is accessible to both beginners and experienced players. It is also intended to be used by both adults and children. Players do not need to purchase physical Theme decks or Booster packs from a store in order to play. Players are provided with everything they need, and there are multiple means of earning new cards and other rewards as the game is played.",
@@ -75,7 +75,7 @@ export const JSONS: json[] = JSON.parse(JSON.stringify([
     "cover": {
       "url": "http://images.igdb.com/igdb/image/upload/t_cover_big/wlw3qjmd9u87he3zleh5.png"
     }
-  }, 
+  },
   { id: 24423,
     name: 'Pokémon Trading Card Game Online',
         summary: "Pokémon Trading Card Game Online (also referred to as Pokémon TCG Online or TCGO) is a downloadable game and the first Pokémon game of the MMOTCG (massively-multiplayer online trading card game) genre. It is based on the Pokémon Trading Card Game or TCG aspect of the Pokémon franchise and follows the same rules. The game was originally released as a browser-based game in March 2011 before being relaunched as a downloadable game in 2012 for the PC and Mac, iPad in 2014, and Android tablets in 2016. It officially emerged from open beta testing in February 2015 but continues to be refined and improved upon on a continual basis. The game is free to download and is accessible to both beginners and experienced players. It is also intended to be used by both adults and children. Players do not need to purchase physical Theme decks or Booster packs from a store in order to play. Players are provided with everything they need, and there are multiple means of earning new cards and other rewards as the game is played.",
@@ -120,8 +120,8 @@ export const JSONS: json[] = JSON.parse(JSON.stringify([
     "cover": {
       "url": "http://images.igdb.com/igdb/image/upload/t_cover_big/tyelx5vyuefiuff0gqai.png"
     }
-  }, 
-  { 
+  },
+  {
     id: 733,
     "name": "Grand Theft Auto: Vice City",
     "summary": "In the year 1986, Tommy Vercetti is heavily indebted to his mafia superiors after a drug deal gone awry, but his dreams of taking over Vice City (based on Miami) push him down a different path. Featuring a wide variety of vehicles, unique radio stations playing hit songs from the era and an intense atmosphere, GTA: Vice City offers valuable insight into the excess and mob life of '80's Miami.",
@@ -147,7 +147,7 @@ export const JSONS: json[] = JSON.parse(JSON.stringify([
     "cover": {
       "url": "http://images.igdb.com/igdb/image/upload/t_cover_big/wfeojuvgbk2kctpfdeff.png"
     }},
-    
+
   { id: 23867,
     "name": "PewDiePie's Tuber Simulator",
     "summary": "Follow in the footsteps of one of the biggest internet stars, PewDiePie, by creating your very own pocket Tuber in PewDiePie's Tuber Simulator! Will you become the biggest, baddest Tuber ever in no time and kick PewDiePie out of his own throne?",
@@ -167,7 +167,7 @@ export const JSONS: json[] = JSON.parse(JSON.stringify([
       "url": "http://images.igdb.com/igdb/image/upload/t_cover_big/aqsq0z9glpf5y6vzldqi.png"
     }
   },
-    
+
   { id: 358,
     "name": "Super Mario Bros.",
     "summary": "Bowser, king of the Koopas, has invaded the Mushroom Kingdom, and turned all the citizens to stone! The only one who can break the spell, Princess Toadstool, has been locked away in Bowser's castle. To return peace to the Mushroom Kingdom, Mario must venture through eight challenging worlds, each packed to the brim with monsters and secrets.",

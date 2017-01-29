@@ -4,27 +4,26 @@
 </nav>
 
 <h1>{{title}}</h1>
-    <ul class="title">
-      <li *ngFor="let json of JSONS">
-       [class.selected]="json === selectedHero"
-            (click)="onSelect(json)">
+<ul class="title">
+    <li *ngFor="let json of JSONS"
+        [class.selected]="json === selectedHero" (click)="onSelect(json)">
         <span class="badge">{{json.id}}</span> {{json.name}}
-      </li>
-    </ul>
+    </li>
+</ul>
 
-<h2 class="heroes">{{json.name}} details!</h2>
-          <div><label>id: </label>{{json.id}}</div>
-          <div>{{json.summary}}</div>
-        <div>{{json.genres}}</div>
+<!--<h2 class="heroes">{{json.name}} details!</h2>
+<div><label>id: </label>{{json.id}}</div>
+<div>{{json.summary}}</div>
+<div>{{json.genres}}</div>
 
 <li *ngFor="let screenshot of json.screenshots">
-            <span>{{screenshot.url}}}</span>
-</li>
+    <span>{{screenshot.url}}}</span>
+</li>-->
 
 <div class="heroes" *ngIf="selectedHero">
-          <h2 class="title">{{selectedHero.name}} details!</h2>
-          <div><label>id: </label>{{selectedHero.id}}</div>
-          <div>{{selectedHero.summary}}</div>
+    <h2 class="title">{{selectedHero.name}} details!</h2>
+    <div><label>id: </label>{{selectedHero.id}}</div>
+    <div>{{selectedHero.summary}}</div>
 </div>
 
 <app-footer></app-footer>
