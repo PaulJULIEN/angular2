@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+
+}
+
+header{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 5%;
+    font-size: 2em;
+    color: black!important;
+
+}
+
+nav ul{
+    width: auto;
+
+
+}
