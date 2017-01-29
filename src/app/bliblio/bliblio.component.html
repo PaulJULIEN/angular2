@@ -1,8 +1,4 @@
-<nav>
-    <a routerLink="/accueil" routerLinkActive="active">Lien vers l'accueil</a>
-</nav>
-    <ul class="heroes">
-     <h1>JE SUIS UN RAVIOLI</h1>
+<ul class="heroes">
       <li *ngFor="let json of JSONS"
        [class.selected]="json === selectedHero"
             (click)="onSelect(json)">
@@ -25,4 +21,3 @@
                 </li>
             </ul>
 </div>
-	<app-footer></app-footer>
