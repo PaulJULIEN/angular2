@@ -10,10 +10,11 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BliblioComponent } from './bliblio/bliblio.component';
 import { DetailComponent } from './detail/detail.component';
+import { AccueilComponent } from './accueil/accueil.component';
 
 const appRoute: Routes = [
   { path: '', redirectTo: '/accueil', pathMatch: 'full' },
-  { path: 'accueil',  component: AppComponent },
+  { path: 'accueil',  component: AccueilComponent }, /* changer pour AccueilComponent, après créer le doss' */
   { path: 'detail/:id', component: DetailComponent },
   { path: 'bliblio', component: BliblioComponent },
   { path: '**', component: AppComponent }
@@ -31,6 +32,7 @@ const appRoute: Routes = [
     FooterComponent,
     BliblioComponent,
     DetailComponent,
+    AccueilComponent,
   ],
   providers: [JsonService],
   bootstrap: [AppComponent]
