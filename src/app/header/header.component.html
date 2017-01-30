@@ -1,14 +1,8 @@
 <header>
-
-  <h1> Le plus beau des json en matière de Jeux vidéos</h1>
-
   <nav>
-    <ul>
-      <a href="#"><li> Accueil </li> </a>
-      <a href="#"><li> Autre chose </li> </a>
-      <a href="#"><li> Autre chose </li> </a>
-    </ul>
+      <ul>
+        <li><a [routerLink]="''" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">HOME</a></li>
+        <li><a [routerLink]="'/bliblio'" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">BIBLIO</a></li>
+      </ul>
   </nav>
-
 </header>
-
