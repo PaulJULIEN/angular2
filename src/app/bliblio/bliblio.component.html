@@ -1,7 +1,15 @@
-<app-footer></app-footer>
-<ul class="heroes">
-      <li *ngFor="let json of JSONS" [class.selected]="json === selectedHero" (click)="onSelect(json)">
-        <span class="badge"><p>id :</p>{{json.id}} <p>Nom :</p>{{json.name}} {{json.genres}}</span>
-      </li>
-      
+<div class="liste">
+
+    <ul class="">
+        <li class="heroes" *ngFor="let json of JSONS" [class.selected]="json === selectedHero" (click)="onSelect(json)">
+            <span class=""><p class="title">id : {{json.id}}</p> <p class="name">Nom :{{json.name}} {{json.genres}}</p></span>
+
+        </li>
     </ul>
+
+</div>
+
+
+
+<app-footer></app-footer>
+

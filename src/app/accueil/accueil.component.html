@@ -1,7 +1,20 @@
-<nav>
-    <a routerLink="/biblio" routerLinkActive="active">Lien vers la bibliothèque</a>
 
-    <router-outlet></router-outlet>
-</nav>
+
+
+<div class="liste">
+
+    <ul class="">
+        <li class="heroes" *ngFor="let json of JSONS" [class.selected]="json === selectedHero" (click)="onSelect(json)">
+            <span class=""><p class="title">id : {{json.id}}</p> <p class="name">Nom :{{json.name}} {{json.genres}}</p></span>
+
+        </li>
+    </ul>
+</div>
+
+
+
+
+
+
 
 <app-footer></app-footer>
