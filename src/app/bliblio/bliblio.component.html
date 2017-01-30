@@ -1,8 +1,6 @@
-<ul class="heroes">
-      <li *ngFor="let json of JSONS"
-       [class.selected]="json === selectedHero"
-            (click)="onSelect(json)">
+     <ul class="heroes">
+      <li *ngFor="let json of JSONS">
         <span class="badge"><p>id :</p>{{json.id}} <p>Nom :</p>{{json.name}} {{json.genres}}</span>
+        <button (click)="gotoDetail()">Detail bitch</button>
       </li>
-      
     </ul>

@@ -1,0 +1,5 @@
+<ul *ngFor="let json of JSONS; let i=index">
+      <li *ngIf="i<3">
+        <span class="badge"><p>id :</p>{{json.id}} <p>Nom :</p>{{json.name}}</span>
+      </li>
+</ul>

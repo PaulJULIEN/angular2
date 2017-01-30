@@ -24,5 +24,5 @@ this.getJson();
 onSelect(json: json): void {
     this.selectedHero = json;
   }
-}
 
+}
